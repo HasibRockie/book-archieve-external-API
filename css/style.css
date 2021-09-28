@@ -1,0 +1,33 @@
+#cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    row-gap: 50px;
+}
+
+#card{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px black;
+    transition: 500ms;
+}
+
+.title-text{
+    font-weight: 300;
+    color: gray;
+}
+
+#card:hover{
+    transform: scale(1.03);
+    transition: 500ms;
+    box-shadow: 4px 4px 5px rgb(104, 104, 104);
+}
+
+#search-result{
+    margin: 15px 80px;
+    padding: 10px auto;
+    font-weight: 600;
+}
+
+#spinner{
+    display: none;
+}
